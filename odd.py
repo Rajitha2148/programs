@@ -1,5 +1,5 @@
-rd=int(input("enter the nom:"))
- if(rd %2)==0:
-   print("{0} is even nom".format(rd))
+h=int(input("h:"))
+if (h % 2 == 0):
+ print("even number")
  else:
-   print("{0} is odd nom".format(rd))
+  print("odd number")
