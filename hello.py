@@ -1,2 +1,2 @@
-rd="hellow"
-print(rd*2)
+dr="hello"
+print(dr*2)
