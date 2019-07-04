@@ -1,3 +1,2 @@
-r,d=map(int, input().split())
-a=r**d
-print(a)
+a,b = map(int,input().split())
+print(pow(a,b))
