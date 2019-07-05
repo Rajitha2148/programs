@@ -1,8 +1,8 @@
-a = int(input())
-if a>0:
+z = int(input())
+if z>0:
 	print ("Positive")
 	
-elif a==0:
+elif z==0:
 	print ("Zero")
 	
 else:
