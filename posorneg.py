@@ -1,7 +1,9 @@
-number=int(input("number:"))
-if number > 0:
-print("Positive")
-elif number == 0:
-print("zero")
+a = int(input())
+if a>0:
+	print ("Positive")
+	
+elif a==0:
+	print ("Zero")
+	
 else:
-print("negatve")
+	print ("Negative")
