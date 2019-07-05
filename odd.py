@@ -1,5 +1,8 @@
-h=int(input("h:"))
-if (h % 2 == 0):
- print("even number")
- else:
-  print("odd number")
+numb=int(input())
+
+if(numb<0):
+  print("invalid")
+elif(  numb%2==0):
+    print("Even")
+else:
+    print("Odd")
