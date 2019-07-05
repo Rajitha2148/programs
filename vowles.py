@@ -1,9 +1,9 @@
-cha=input("enter your charac:")
-if(cha=='a' or cha=='e' or cha=='i' or cha=='o' or cha=='u' or cha=='A' or cha=='E' or cha=='I' or cha=='o' cha=='u'):
-   print("the given charac",cha,"vowel")
-elif(cha=='b' or cha=='c' or cha=='d' or cha=='g' or cha=='h' or cha=='j' or cha=='k' or cha=='l'
-     or cha=='m' or cha=='n' or cha=='p' or cha=='q' or char=='r' or cha=='s' or cha=='t'
-     or cha=='v' or cha=='w' or cha=='x' or cha=='y' or cha=='z'): 
-   print("the given charac",cha,"constant")
+vow=['a','e','i','o','u']
+cons=['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
+letter=str(input())
+if (letter in vow):
+    print("Vowel")
+elif(letter in cons):
+  print("Consonant")
 else:
-print("invalid")
+  	print("invalid")
