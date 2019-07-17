@@ -1,6 +1,8 @@
 
-s= input()
-if s == s[::-1]:
-  print("yes")
+    
+d=list(input())
+r=list(reversed(d))
+if(d==r):
+	print('yes')
 else:
-  print("no")
+	print('no')
