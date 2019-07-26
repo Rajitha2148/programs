@@ -1,11 +1,11 @@
-d1,r1=map(str,input().split())
-m1=0
-if len(d1)>len(r1):
-  d1,r1=r1,d1
-h1=0
-while h1<len(d1):
-  m1+=(ord(r1[h1])-ord(d1[h1]))
-  h1+=1
-for q in range(h1,len(r1)):
-  m1+=ord(r1[h1])-ord('b')+1
-print(m1)
+dr,n=map(str,input().split())
+y=0
+if len(dr)>len(l1):
+  dr,n=n,dr
+bj=0
+while bj<len(dr):
+  y+=(ord(n[bj])-ord(dr[bj]))
+  bj+=1
+for bj in range(bj,len(l1)):
+  y+=ord(n[bj])-ord('a')+1
+print(y)
