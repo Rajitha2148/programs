@@ -1,9 +1,9 @@
 
-mo,ro = input().split()
-mo,ro = int(mt), int(rt)
-Lo1 = [ int(x) for x in input().split()]
-for i in range(0,ro) :
-    ao1,bo1 = input().split()
-    ao1,bo1 = int(a01), int(bo1)
-for i in range(0,ro):
-    print(min(Lo1[ao1-1:bo1]))
+mf,rf = input().split()
+mf,rf = int(mf), int(rf)
+Lf1 = [ int(x) for x in input().split()]
+for i in range(0,rf) :
+    af1,bf1 = input().split()
+    af1,bf1 = int(af1), int(bf1)
+for i in range(0,rf):
+    print(min(Lf1[af1-1:bf1]))
