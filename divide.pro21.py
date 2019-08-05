@@ -1,0 +1,9 @@
+dr1=int(input())
+lst1=list(map(int,input().split()))[:dr1]
+diva=int(dr1/2)
+at11=sum(lst1[:diva])//len(lst1[:diva])
+at21=sum(lst1[diva:])//len(lst1[diva:])
+if(at11==at21):
+  print("yes")
+else:
+  print("no")
