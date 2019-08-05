@@ -1,11 +1,11 @@
-dr,tr=list(map(int,input().split()))
+nt,mt=list(map(int,input().split()))
 lst=list(map(int,input().split()))
 lst.sort(reverse=True)
-crt=0
-for i in lst:
-    if tr==0:
+kl=0
+for j in lst:
+    if mt==0:
         break
-    pt=tr // i
-    crt+pt
-    tr=tr-i*pt
-print(crt)
+    yu=mt // j
+    kl+=yu
+    mt=mt-j*yu
+print(kl)
