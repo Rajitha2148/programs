@@ -1,13 +1,13 @@
-no=int(input())
-au=input().split(" ")
-au=[int(no) for no in au]
-s=[]
-for x in range(0,no):
-  if(x==au[x]):
-    s.append(au[x])
-if not(len(s)==0):
-  s=sorted(s)
-  for i in range(0,len(s)):
-    print(s[i],end=' ')
+nor=int(input())
+aur=input().split(" ")
+aur=[int(nor) for nor in aur]
+g=[]
+for m in range(0,nor):
+  if(m==aur[m]):
+    g.append(aur[m])
+if not(len(g)==0):
+  g=sorted(g)
+  for m in range(0,len(g)):
+    print(g[m],end=' ')
 else:
   print("-1")
